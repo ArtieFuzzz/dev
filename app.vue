@@ -57,8 +57,8 @@ const updateTheme = () => {
       <div class="text-gray-500 flex flex-col items-center justify-center">
         Made with
         <div>
-          <IconCSS name="teenyicons:tailwind-outline" /> &
-          <IconCSS name="teenyicons:nuxtjs-outline" />
+          <Icon name="teenyicons:tailwind-outline" /> &
+          <Icon name="teenyicons:nuxtjs-outline" />
         </div>
       </div>
     </div>
