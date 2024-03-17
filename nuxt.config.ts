@@ -31,5 +31,10 @@ export default defineNuxtConfig({
       prefix: '/_fonts'
     },
     priority: ["google"]
+  },
+  site: {
+    name: 'ArtieFuzzz',
+    url: 'https://dev.astolfo.cafe',
+    description: 'Software Developer | AU'
   }
 })
