@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .light {
+    --text: 18 5 31;
+    --background: 248 242 253;
+    --primary: 255 131 141;
+    --secondary: 230 130 232;
+    --accent: 145 233 255;
+  }
+  .dark {
+    --text: 237 224 250;
+    --background: 8 2 13;
+    --primary: 122 0 10;
+    --secondary: 123 23 125;
+    --accent: 0 90 112;
+  }
+}
+
+body {
+  @apply bg-background text-text transition-colors duration-300;
+}
+
+.title-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-t from-black to-secondary dark:from-white dark:to-primary;
+}
+
+select {
+  @apply text-text bg-transparent appearance-none cursor-auto;
+  outline: none;
+}
+
+select[multiple] {
+  color: red;
+}
+
+select::-ms-expand {
+  @apply hidden;
+}

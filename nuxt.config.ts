@@ -3,6 +3,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.scss'],
   modules: ["@nuxt/fonts", "@nuxtjs/color-mode", "@nuxtjs/seo"],
+  colorMode: {
+    classSuffix: '',
+    preference: 'system',
+    fallback: 'dark'
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -11,5 +16,14 @@ export default defineNuxtConfig({
   },
   ogImage: {
     enabled: false
+  },
+  fonts: {
+    families: [
+      { name: 'Kanit', provider: 'google' },
+      { name: 'Outfit', provider: 'google' },
+    ],
+    assets: {
+      prefix: '/_fonts'
+    }
   }
 })
