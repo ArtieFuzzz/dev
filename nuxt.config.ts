@@ -24,11 +24,12 @@ export default defineNuxtConfig({
   },
   fonts: {
     families: [
-      { name: 'Kanit', provider: 'google' },
-      { name: 'Outfit', provider: 'google' },
+      { name: 'Kanit', provider: 'bunny' },
+      { name: 'Outfit', provider: 'bunny' },
     ],
     assets: {
       prefix: '/_fonts'
-    }
+    },
+    priority: ["google"]
   }
 })
