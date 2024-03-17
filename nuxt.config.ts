@@ -2,7 +2,12 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.scss'],
-  modules: ["@nuxt/fonts", "@nuxtjs/color-mode", "@nuxtjs/seo"],
+  modules: [
+    "@nuxt/fonts",
+    "@nuxtjs/color-mode",
+    "@nuxtjs/seo",
+    "nuxt-icon"
+  ],
   colorMode: {
     classSuffix: '',
     preference: 'system',

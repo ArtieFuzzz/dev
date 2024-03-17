@@ -25,7 +25,7 @@ body {
 }
 
 .title-gradient {
-  @apply bg-clip-text text-transparent bg-gradient-to-t from-black to-secondary dark:from-white dark:to-primary;
+  @apply bg-clip-text text-transparent bg-gradient-to-tr from-black to-secondary dark:from-white dark:to-secondary;
 }
 
 .sun {
@@ -34,4 +34,8 @@ body {
 
 .moon {
   @apply bg-background;
+}
+
+.icon {
+  @apply relative inline-flex fill-gray-500;
 }

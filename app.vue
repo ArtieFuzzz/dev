@@ -42,7 +42,7 @@ const updateTheme = () => {
     </div>
     <!-- Nav-->
     <div
-      class="flex flex-col items-center justify-between w-32 h-screen px-5 py-10 my-auto border-l-2 border-accent"
+      class="flex flex-col items-center justify-between w-44 h-screen px-5 py-10 my-auto border-l-2 border-accent"
     >
       <button @click="updateTheme()">
         <div
@@ -54,11 +54,13 @@ const updateTheme = () => {
         </div>
       </button>
 
-      <footer>
-        <p class="text-base text-center text-gray-500 font-body">
-          Made with <Icon name='uil:moon'></Icon> & TailwindCSS
-        </p>
-      </footer>
+      <div class="text-gray-500 flex flex-col items-center justify-center">
+        Made with
+        <div>
+          <IconCSS name="teenyicons:tailwind-outline" /> &
+          <IconCSS name="teenyicons:nuxtjs-outline" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
