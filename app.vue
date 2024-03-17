@@ -5,7 +5,7 @@ const updateTheme = () => {
   const currentTheme = colorMode.preference
   const newTheme = currentTheme === 'dark' ? 'light' : 'dark'
 
-  colorMode.preference = newTheme;
+  colorMode.preference = newTheme
 }
 </script>
 
@@ -44,17 +44,14 @@ const updateTheme = () => {
     <div
       class="flex flex-col items-center justify-between w-32 h-screen py-10 my-auto"
     >
-      <select v-model="$colorMode.preference">
-        <option value="dark">Dark</option>
-        <option value="light">Light</option>
-      </select>
-
       <button @click="updateTheme()">
-        {{
-          $colorMode.preference === 'dark'
-            ? 'Switch to Light'
-            : 'Switch to Dark'
-        }}
+        <div
+          class="relative z-0 w-8 h-8 duration-100 ease-in-out rounded-full sun dark:bg-gradient-to-tr dark:from-[#8983F7] dark:to-[#A3DAFB]"
+        >
+          <div
+            class="absolute w-6 h-6 scale-0 rounded-full bg-blue dark:scale-100 top-0.5 z-10 ease-in-out -right-0.5 duration-300 moon"
+          ></div>
+        </div>
       </button>
 
       <footer>

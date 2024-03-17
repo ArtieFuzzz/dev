@@ -10,6 +10,7 @@
     --secondary: 230 130 232;
     --accent: 145 233 255;
   }
+
   .dark {
     --text: 237 224 250;
     --background: 8 2 13;
@@ -27,15 +28,10 @@ body {
   @apply bg-clip-text text-transparent bg-gradient-to-t from-black to-secondary dark:from-white dark:to-primary;
 }
 
-select {
-  @apply text-text bg-transparent appearance-none cursor-auto;
-  outline: none;
+.sun {
+  background: linear-gradient(40deg, #FF0080, #FF8C00 70%);
 }
 
-select[multiple] {
-  color: red;
-}
-
-select::-ms-expand {
-  @apply hidden;
+.moon {
+  @apply bg-background;
 }
