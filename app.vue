@@ -54,6 +54,26 @@ const updateTheme = () => {
         </div>
       </button>
 
+      <div class="flex flex-col justify-center items-center gap-8">
+        <div class="flex flex-row gap-2">
+          <a href="https://github.com/ArtieFuzzz">
+            <Icon name="simple-icons:github" width="24" height="24" />
+          </a>
+          <a href="https://git.sr.ht/~artiefuzzz">
+            <Icon name="simple-icons:sourcehut" width="24" height="24" />
+          </a>
+          <a href="https://www.codewars.com/users/ArtieFuzzz">
+            <Icon name="simple-icons:codewars" width="24" height="24" />
+          </a>
+          <a href="https://steamcommunity.com/id/ArtieFuzzz/">
+            <Icon name="simple-icons:steam" width="24" height="24" />
+          </a>
+        </div>
+
+        <a href="/proton.asc">Email (PGP)</a>
+        <a href="/yubikey.asc">YubiKey (PGP)</a>
+      </div>
+
       <div class="text-gray-500 flex flex-col items-center justify-center">
         Made with
         <div>
