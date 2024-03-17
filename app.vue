@@ -70,8 +70,9 @@ const updateTheme = () => {
           </a>
         </div>
 
-        <a href="/proton.asc">Email (PGP)</a>
-        <a href="/yubikey.asc">YubiKey (PGP)</a>
+        <a href="mailto:hey@astolfo.cafe" class="font-bold text-base">Contact</a>
+        <a href="/proton.asc" class="font-bold text-base">Email (PGP)</a>
+        <a href="/yubikey.asc" class="font-bold text-base">YubiKey (PGP)</a>
       </div>
 
       <div class="text-gray-500 flex flex-col items-center justify-center">
