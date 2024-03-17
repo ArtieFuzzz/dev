@@ -42,7 +42,7 @@ const updateTheme = () => {
     </div>
     <!-- Nav-->
     <div
-      class="flex flex-col items-center justify-between w-32 h-screen py-10 my-auto"
+      class="flex flex-col items-center justify-between w-32 h-screen px-5 py-10 my-auto border-l-2 border-accent"
     >
       <button @click="updateTheme()">
         <div
@@ -56,7 +56,7 @@ const updateTheme = () => {
 
       <footer>
         <p class="text-base text-center text-gray-500 font-body">
-          Made with NuxtJS & TailwindCSS
+          Made with <Icon name='uil:moon'></Icon> & TailwindCSS
         </p>
       </footer>
     </div>
