@@ -1,11 +1,10 @@
 <template>
   <div>
     <h1 class="text-6xl font-heading">
-      Hi, I'm <span class="title-gradient">Artie</span>
+      Hi, I'm <span class="title-gradient">Artie</span>.
     </h1>
-    <p class="max-w-6xl text-base">
-      Howdy! My name’s Artie, though many call me other names such as Artsy. I’m
-      from Australia and I have a passion for programming, networking, and
+    <p class="max-w-5xl text-base">
+      I’m from Australia and I have a passion for programming, networking, and
       anything else relating to computers / technology. I love spending my time
       with friends, listening to music, reading documentation, and of course
       programming!
