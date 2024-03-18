@@ -48,7 +48,8 @@ const updateTheme = () => {
       <a href="/yubikey.asc" class="font-bold text-base">YubiKey (PGP)</a>
     </div>
 
-    <div>
+    <div class='flex flex-col items-center'>
+      <a href="https://github.com/ArtieFuzzz/dev" class='text-sm font-body'>Source</a>
       <a href="/data-policy" class='text-sm font-body'>Privacy Policy</a>
       <div class="text-gray-500 flex flex-col items-center justify-center">
         Made with
