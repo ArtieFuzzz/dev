@@ -1,17 +1,13 @@
 a .tooltip {
-    opacity: 0;
-    z-index: 1;
-    border-radius: 5px;
-    right: 11em;
-    top: 35%;
+  opacity: 0;
 
-    @apply absolute bg-background px-2 py-1.5 border-2 border-text border-r-white transition duration-500;
+  @apply absolute bg-background rounded-md right-44 z-[1] top-[35%] px-3 py-1.5 border-2 border-text border-r-white transition duration-500;
 }
 
 a:hover .tooltip {
-    opacity: 1;
+  opacity: 1;
 }
 
 a .tooltip:hover {
-    opacity: 0;
+  opacity: 0;
 }
