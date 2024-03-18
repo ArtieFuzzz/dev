@@ -11,7 +11,7 @@ const updateTheme = () => {
 
 <template>
   <div
-    class="flex flex-col items-center justify-between w-44 h-screen px-5 py-10 my-auto border-l-2 border-accent"
+    class="flex flex-col items-center justify-between w-44 h-screen px-5 py-10 my-auto"
   >
     <button @click="updateTheme()">
       <div
@@ -48,11 +48,14 @@ const updateTheme = () => {
       <a href="/yubikey.asc" class="font-bold text-base">YubiKey (PGP)</a>
     </div>
 
-    <div class="text-gray-500 flex flex-col items-center justify-center">
-      Made with
-      <div>
-        <Icon name="teenyicons:tailwind-outline" /> &
-        <Icon name="teenyicons:nuxtjs-outline" />
+    <div>
+      <a href="/data-policy" class='text-sm font-body'>Privacy Policy</a>
+      <div class="text-gray-500 flex flex-col items-center justify-center">
+        Made with
+        <div>
+          <Icon name="teenyicons:tailwind-outline" /> &
+          <Icon name="teenyicons:nuxtjs-outline" />
+        </div>
       </div>
     </div>
   </div>
