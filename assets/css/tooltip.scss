@@ -1,7 +1,7 @@
 a .tooltip {
   opacity: 0;
 
-  @apply absolute bg-background rounded-md right-44 z-[1] top-[35%] px-3 py-1.5 border-2 border-text transition duration-500;
+  @apply absolute text-text bg-background rounded-md right-44 z-[1] top-[35%] px-3 py-1.5 border-2 border-text transition duration-500;
 }
 
 a:hover .tooltip {
