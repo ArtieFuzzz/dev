@@ -46,10 +46,10 @@ const updateTheme = () => {
     >
       <button @click="updateTheme()">
         <div
-          class="relative z-0 w-8 h-8 duration-100 ease-in-out rounded-full sun dark:bg-gradient-to-tr dark:from-[#8983F7] dark:to-[#A3DAFB]"
+          class="relative z-0 w-8 h-8 duration-100 ease-in-out rounded-full bg-sun dark:bg-moon"
         >
           <div
-            class="absolute w-6 h-6 scale-0 rounded-full bg-blue dark:scale-100 top-0.5 z-10 ease-in-out -right-0.5 duration-300 moon"
+            class="absolute w-6 h-6 scale-0 rounded-full bg-blue dark:scale-100 top-0.5 z-10 ease-in-out -right-0.5 duration-300 bg-background"
           ></div>
         </div>
       </button>

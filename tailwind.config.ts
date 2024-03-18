@@ -19,6 +19,10 @@ export default {
         'secondary': 'rgb(var(--secondary))',
         'accent': 'rgb(var(--accent))',
       },
+      backgroundImage: {
+        'sun': 'linear-gradient(40deg, #FF0080, #FF8C00 70%)',
+        'moon': 'linear-gradient(40deg, #8983F7, #A3DAFB 70%)'
+      },
       fontFamily: {
         heading: 'Kanit',
         body: 'Outfit',

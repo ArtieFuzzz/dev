@@ -30,14 +30,6 @@ body {
   @apply bg-clip-text text-transparent bg-gradient-to-tr from-black to-secondary dark:from-white dark:to-secondary;
 }
 
-.sun {
-  background: linear-gradient(40deg, #FF0080, #FF8C00 70%);
-}
-
-.moon {
-  @apply bg-background;
-}
-
 .icon {
   @apply relative inline-flex fill-gray-500;
 }
