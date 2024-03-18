@@ -1,0 +1,14 @@
+.fancy-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.fancy-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+
+  @apply bg-text bg-clip-content;
+}
+
+.fancy-scrollbar {
+  scrollbar-width: 5px;
+  scrollbar-color: var(--background);
+}
