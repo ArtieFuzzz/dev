@@ -58,15 +58,19 @@ const updateTheme = () => {
         <div class="flex flex-row gap-2">
           <a href="https://github.com/ArtieFuzzz">
             <Icon name="simple-icons:github" width="24" height="24" />
+            <span class='tooltip'>GitHub</span>
           </a>
           <a href="https://git.sr.ht/~artiefuzzz">
             <Icon name="simple-icons:sourcehut" width="24" height="24" />
+            <span class='tooltip'>SourceHut</span>
           </a>
           <a href="https://www.codewars.com/users/ArtieFuzzz">
             <Icon name="simple-icons:codewars" width="24" height="24" />
+            <span class='tooltip'>CodeWar</span>
           </a>
           <a href="https://steamcommunity.com/id/ArtieFuzzz/">
             <Icon name="simple-icons:steam" width="24" height="24" />
+            <span class='tooltip'>Steam</span>
           </a>
         </div>
 
