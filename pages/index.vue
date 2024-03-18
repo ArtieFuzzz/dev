@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-28">
+  <div class="flex flex-col gap-24">
     <div>
       <h1 class="text-6xl font-heading">
         Hi, I'm <span class="title-gradient">Artie</span>.
@@ -8,7 +8,7 @@
     </div>
 
     <div>
-      <h2 class='text-4xl font-heading'>Quick About Me.</h2>
+      <h2 class='text-4xl font-heading'>A Quick About Me.</h2>
       <p class="max-w-4xl text-base text-wrap">
         I’m from Australia and I have a passion for programming, networking, and
         anything else relating to computers / technology.
