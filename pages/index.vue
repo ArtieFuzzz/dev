@@ -1,10 +1,10 @@
 <template>
-  <div class="flex flex-col gap-32">
+  <div class="flex flex-col gap-28">
     <div>
       <h1 class="text-6xl font-heading">
         Hi, I'm <span class="title-gradient">Artie</span>.
       </h1>
-      <p class="text-xl">Software Developer.</p>
+      <p class="text-xl">Software Developer; Building random things.</p>
     </div>
 
     <div>
