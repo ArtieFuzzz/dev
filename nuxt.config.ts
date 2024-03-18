@@ -6,7 +6,8 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
     "@nuxtjs/color-mode",
     "@nuxtjs/seo",
-    "nuxt-icon"
+    "nuxt-icon",
+    "@nuxtjs/plausible"
   ],
   colorMode: {
     classSuffix: '',
@@ -36,5 +37,8 @@ export default defineNuxtConfig({
     name: 'ArtieFuzzz',
     url: 'https://dev.astolfo.cafe',
     description: 'Software Developer | AU'
+  },
+  plausible: {
+    apiHost: 'https://analytics.astolfo.cafe'
   }
 })
