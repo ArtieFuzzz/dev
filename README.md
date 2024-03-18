@@ -4,7 +4,7 @@
 
 - [Icons](https://icon-sets.iconify.design)
   - Simple Icons (For NavBar icons)
-  - Emojione Monotone (For Favicon)
+  - Emojione Monotone - Rosette (For Favicon)
 
 ## Credits
 
