@@ -28,9 +28,13 @@ export default defineNuxtConfig({
       { name: 'Kanit', provider: 'bunny' },
       { name: 'Outfit', provider: 'bunny' },
     ],
+    defaults: {
+      subsets: ["latin", "latin-ext"]
+    },
     assets: {
       prefix: '/_fonts'
     },
+    provider: 'bunny',
     priority: ["google"]
   },
   site: {
