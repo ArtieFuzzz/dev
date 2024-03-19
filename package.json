@@ -10,9 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@css-inline/css-inline-wasm": "^0.13.1",
+    "@resvg/resvg-js": "^2.6.0",
+    "@resvg/resvg-wasm": "^2.6.0",
     "sass": "^1.72.0",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "yoga-wasm-web": "^0.3.3"
   },
   "devDependencies": {
     "@nuxt/fonts": "^0.3.0",
@@ -20,7 +24,7 @@
     "@nuxtjs/plausible": "^0.2.4",
     "@nuxtjs/seo": "2.0.0-rc.9",
     "autoprefixer": "^10.4.18",
-    "nuxt": "^3.11.0",
+    "nuxt": "3.10.3",
     "nuxt-icon": "^0.6.9",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1"

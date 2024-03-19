@@ -21,7 +21,10 @@ export default defineNuxtConfig({
     },
   },
   ogImage: {
-    enabled: false
+    enabled: true,
+    defaults: {
+      renderer: 'satori',
+    }
   },
   fonts: {
     families: [
@@ -44,5 +47,9 @@ export default defineNuxtConfig({
   },
   plausible: {
     apiHost: 'https://analytics.astolfo.cafe'
-  }
+  },
+  experimental: {
+    inlineRouteRules: true,
+    componentIslands: true,
+  },
 })

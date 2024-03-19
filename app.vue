@@ -5,6 +5,13 @@ useHead({
   },
   link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
 })
+
+defineOgImageComponent('Home', {
+  title: 'Hello, World!',
+  description: 'Lorem Ipsum',
+  theme: '#ff0000',
+  colorMode: 'dark'
+})
 </script>
 
 <template>
